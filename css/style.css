@@ -1,0 +1,173 @@
+* {
+  font-family: 'Roboto' , sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav{
+  background-color: #80a2c2;
+  padding: 30px 30px 10px 30px; 
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu_item {
+  display: inline;
+  list-style-type: none;
+}
+
+.menu_link {
+  color: #f0f1f2;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.main {
+  padding: 30px;
+}
+
+.main_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 4px solid #d1dbf0;
+}
+
+.main_img img {
+  width: 55%;
+  margin-bottom: 30px;
+} 
+
+
+.main_name {
+  text-align: center;
+} 
+
+.main_name h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-variant: small-caps;
+}
+  
+.main_name h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-variant: small-caps;
+}
+
+.main_name .main_divider {
+  width: 100px;
+  height: 2px;
+  background-color: #80a2c2;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.personal_info {
+  padding: 30px 0 30px 0;
+}
+
+.personal_info .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personal_info section {
+  width: 50%;
+}
+
+.section_wrapper {
+  border-bottom: 0.5px solid #000000;
+  min-height: 260px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section_h3 {
+  font-size: 30px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.section_descr {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+@media (max-width: 1280px) {
+  .section_wrapper {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 992px) {
+  .personal_info section {
+    width: 100%;
+  }
+  .section_wrapper {
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+}
+
+footer {
+  min-height: 80px;
+  background-color: #80a2c2;
+}
+
+footer .footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+
+}
+
+.footer_wrapper a {
+  display: block;
+  color: #f0f1f2;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer_wrapper a img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.footer_year {
+  color: #f0f1f2;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer_second {
+  width: 10%;
+}
+
+.footer_first {
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
