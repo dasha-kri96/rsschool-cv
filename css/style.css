@@ -83,7 +83,7 @@
   flex-wrap: wrap;
 }
 
-.personal_info section {
+.personal_info .section {
   width: 50%;
 }
 
@@ -113,7 +113,7 @@
 }
 
 @media (max-width: 992px) {
-  .personal_info section {
+  .personal_info .section {
     width: 100%;
   }
   .section_wrapper {
